@@ -1,0 +1,85 @@
+*{
+	background-image: url(css-homework/seigaiha.png);
+	background-repeat: repeat;
+}
+.logo{
+	float: right; /*обтікають елемент з лівої сторони*/
+}
+.header_paragraph{
+	font-size: 35px;
+	font-family: cursive;
+	text-align:justify;
+
+}
+.header_main{
+	font-size: 40px;
+	font-family: sans-serif;
+	color: #333;
+	text-align: center;
+}
+.header_secondary{
+	font-family: cursive;
+	color:#ccc;
+}
+.block{
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+}
+.list {
+	font-family: sans-serif;
+	text-align: center;
+	list-style: none;
+}
+.content__item:hover {
+	background: #eee;
+	list-style-image: url(css-homework/short_arrow_right-512.png);
+}
+.content__item:active {
+	text-decoration: overline;
+}
+.link {
+	text-decoration: none;
+	font-size: 30px;
+}
+.link:hover {
+	color: #333;
+}
+a:visited {
+	color: #a9a;
+}
+.section-content{
+	text-align:justify;
+	text-indent: 40px; /* Відступ абзаца */
+	font-size: 18px;
+	font-weight: bold;
+}
+p:first-letter { 
+	 color:#ea3; /*псевдоелементи*/
+	 font-size: 200%;
+}
+p:first-line {
+	color: #a83;
+	font-size: 150%;
+}
+.table {
+	font-size: 18px;
+	font-family: Vernada;
+	text-align: center;
+	width: 740px;
+}
+.table th {
+	background: #666;
+	color: black;
+}
+th:first-child, td:first-child { /*перща колонка*/
+text-align: left;
+}
+.last_tr {
+	background: #a83; /* останій рядок */
+	color: white;
+}
+
+.background_row:hover {
+	background: #ccc;
+}
